@@ -1,0 +1,5 @@
+[
+  {"title": "Terminator 2", "year": 1991, "actors": ["Arnold", "Linda", "Edward"], "image": "t2"},
+  {"title": "Titanic", "year": 1997, "actors": ["Leo", "Kate"], "image": "titanic"},
+  {"title": "Happy Gilmour", "year": 1995, "actors":  ["Adam"], "image": "happy"}
+]
