@@ -2,6 +2,8 @@ import { View, Image, Button } from "react-native";
 import { useRouter } from 'expo-router';
 import { useState } from "react"
 import Movie from "../components/Movie.jsx";
+import { useContext } from 'react';
+import { MovieContext } from '../components/MovieContext';
 
 const t2 = require("../assets/images/terminator2.jpg");
 const titanic = require("../assets/images/titanic.jpg");
@@ -9,13 +11,13 @@ const happy = require("../assets/images/happyGilmour.jpg")
 
 const images = { "t2" : t2, "titanic": titanic, "happy": happy};
 
-import movieData from "../assets/movies.json";
-console.log(movieData);
+
 
 export default function Index() {
   const router = useRouter();
+  const { movieData } = useContext(MovieContext);
   const  [movieIndex, setMovieIndex] = useState(0);
-
+  console.log(movieData)
   return (
     <View
       style={{
