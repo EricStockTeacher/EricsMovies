@@ -6,10 +6,11 @@ import { useContext } from 'react';
 import { MovieContext } from '../components/MovieContext';
 
 const t2 = require("../assets/images/terminator2.jpg");
+const t2_2nd = require("../assets/images/terminator2_2nd.jpg");
 const titanic = require("../assets/images/titanic.jpg");
 const happy = require("../assets/images/happyGilmour.jpg")
 
-const images = { "t2" : t2, "titanic": titanic, "happy": happy};
+const images = { "t2" : t2, "t2_2nd": t2_2nd, "titanic": titanic, "happy": happy};
 
 
 
